@@ -1,0 +1,199 @@
+ * {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.img-class {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.input-texto {
+    background: transparent;
+    border-color: transparent;
+    color: #0A3871;
+    width: 100%;
+    /* height: 60%; */
+    padding: 5%;
+    margin-bottom: 2px;
+}
+
+.center-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /*dispostos horizontalmente - interno*/
+    align-items: center;/*alinhados na vertical - interno*/
+    /* background: #0A3871; */
+    width: 100%;
+    height: 89%;
+  }
+
+.body-text {
+    margin: 0 auto;
+    width: 100%;
+    height: 89%;
+}
+
+.botoes {
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    border-color: #0A3871 !important;
+    border-width: 1px !important;
+}
+
+.salvar {
+    background: #0A3871;
+    width: 328px;
+    height: 61px;
+    color: #FFFFFF;
+    border: #0A3871;
+    border-radius: 25px;
+}
+
+.cancelar {
+    background: #D8DFE8;
+    width: 328px;
+    height: 61px;
+    color: #0A3871;
+    border: #D8DFE8;
+    border-radius: 25px;
+}
+
+
+
+/* --------------- 1280 PX DE TELA ----------- */
+@media (max-width: 1280px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100;
+        grid-template-rows: 100 100;
+        grid-template-areas: "iten1"
+        "iten2";
+    }
+    
+    .iten1 {
+        grid-area: iten1;
+    }
+    .iten2 {
+        grid-area: iten2;
+        padding-top: 10%;
+        display: flex;
+        margin: auto;
+        width: 100% !important;
+        padding-bottom: 15PX;
+    }
+    my favorite songo
+    .img-resposta {
+        display: none;
+    }
+
+    .mensagem {
+        height: auto;
+    }
+
+    .div-aparece {
+        background-color: white !important;
+        border-radius: 25px;
+    }
+
+    .result-texto {
+        padding-bottom: 5px;
+        height: auto;
+    }
+
+    .copiar {
+        padding-bottom: 5px !important;
+    }
+
+    .img-class {
+        margin-bottom: 10px;
+    }
+
+    .result-texto {
+        margin-top: 35px;
+    }
+
+    .desencriptar {
+        margin-top: 10px;
+    }
+
+    .encriptar {
+        margin-top: 10px;
+    }
+}
+
+.iten2 {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+/* ----------------------------------------- */
+
+
+/* --------------- 970PX DE TELA --------------- */
+@media (max-width: 970px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100;
+        grid-template-rows: 100 100;
+        grid-template-areas: "iten1"
+        "iten2";
+    }
+    
+    .iten1 {
+        grid-area: iten1;
+    }
+    .iten2 {
+        grid-area: iten2;
+        padding-top: 25%;
+        display: flex;
+        margin: auto;
+        width: 100% !important;
+    }
+    
+    .img-resposta {
+        display: none;
+    }
+
+    .div-aparece {
+        height: auto;
+    }
+
+    .div-aparece {
+        background-color: white !important;
+        border-radius: 25px;
+        margin-top: 25px;
+    }
+
+    .result-texto {
+        margin-top: 35px;
+    }
+
+    .desencriptar {
+        margin-top: 10px;
+    }
+
+    .encriptar {
+        margin-top: 10px;
+    }
+}
+
+.info {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* ------------------------------------ */

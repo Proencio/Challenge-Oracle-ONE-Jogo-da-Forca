@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jogo Da Forca</title>
+	<link rel="icon" href="/imagens/graduacao.png">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img class="img-class" src="images/logo.png" alt="Logo Alura">
+	</header>
+	
+	<main>
+		<div class="center-body" id="div-desaparecer">
+				<div class="interno">
+					<Button class="bnt1" onclick="iniciarJogo()">
+						Começar a jogar
+					</Button>
+				<!-- </div>
+				<div> -->
+					<button class="bnt2" onclick="btnAdicionar()">
+						Adicionar nova palavra
+					</button>
+				</div>
+		</div>
+		<div class="center-body" id="div-aparecer">
+			<div class="interno">
+				<canvas id="forca" height="700px" width="1200px" class="forca">
+
+				</canvas>  
+				<div class="botoes">
+					<button class="salvar" onclick="resetJogo()">
+						Novo Jogo
+					</button>
+					<button class="cancelar" onclick="desistir()">
+						Desistir
+					</button>
+				</div>
+			</div>
+	</div>
+	</main>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="canvas.js"></script>
+</body>
+</html>
